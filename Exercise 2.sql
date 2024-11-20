@@ -29,5 +29,25 @@ SELECT ProductID, UnitPrice, UnitsInStock, UnitsOnOrder FROM northwind.products 
 SELECT Productname FROM northwind.products ;
 ------------------------------------------------------------------------------------------------------------
 -- Question 9
-
-
+SELECT * FROM northwind.categories;
+------------------------------------------------------------------------------------------------------------
+-- Question 10
+SELECT * FROM products WHERE CategoryID = '8';
+------------------------------------------------------------------------------------------------------------
+-- Question 11
+SELECT EmployeeID, FirstName, LastName From employees;
+------------------------------------------------------------------------------------------------------------
+-- Question 12
+SELECT * FROM employees WHERE Title LIKE "%manager%";
+------------------------------------------------------------------------------------------------------------
+-- Question 13
+SELECT DISTINCT(Title) FROM employees; 
+------------------------------------------------------------------------------------------------------------
+-- Question 14
+SELECT * FROM northwind.employees WHERE Salary BETWEEN 2000 and 2500;
+------------------------------------------------------------------------------------------------------------
+-- Question 15
+SELECT * FROM northwind.suppliers;
+------------------------------------------------------------------------------------------------------------
+-- Question 16products
+SELECT * FROM products WHERE SupplierID = 4;
