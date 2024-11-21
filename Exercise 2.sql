@@ -50,4 +50,4 @@ SELECT * FROM northwind.employees WHERE Salary BETWEEN 2000 and 2500;
 SELECT * FROM northwind.suppliers;
 ------------------------------------------------------------------------------------------------------------
 -- Question 16products
-SELECT * FROM products WHERE SupplierID = 4;
+
